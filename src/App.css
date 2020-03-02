@@ -3,8 +3,11 @@ body {
    padding : 20px 60px;
 }
 
-a{
+a {
    text-decoration: none;
    color : black;
-   font-weight: bold;
+}
+
+* {
+   box-sizing: border-box;
 }
