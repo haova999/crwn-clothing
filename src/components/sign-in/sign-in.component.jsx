@@ -27,6 +27,8 @@ class SignIn extends React.Component {
       
     }
     catch(error) {
+      alert("User not found");
+      this.setState({ email: "", password: "" });
       console.log(error);
     }
   };
